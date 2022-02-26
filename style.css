@@ -1,0 +1,151 @@
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    background-color: rgb(253,245,238);
+}
+
+.navbar {
+    background-color: rgb(29, 57, 103);
+    border-bottom: 8px solid rgb(19, 37, 67);
+    /* border-top: 8px solid rgb(19, 37, 67); */
+}
+
+.navbar img {
+    height: 102.906px;
+    width: 181.109px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-name {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.nav-item a {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.item-link {
+    font-size: 20px;
+}
+
+.item-link:hover {
+    color: orangered;
+}
+
+.btn {
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;
+    font-weight: 900;
+}
+
+.btn:hover {
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+
+.carousel-item {
+    font-weight: 900;
+}
+
+.second-container {
+    display: flex;
+    justify-content: center;
+}
+
+.second-title {
+    width: 774px;
+    height: 83px;
+    background-image: url(https://www.monsterhunter.com/rise/assets/images/common/sec-ttl_bg-m.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Noto Serif KR", serif;
+}
+
+.second-title h2 {
+    font-weight: 900;
+}
+
+.new-card {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: rgb(19, 37, 67);
+    color: white;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.first-box div img {
+    margin-right: 10px;
+}
+
+.first-box div span {
+    color: #FED100;
+}
+
+.first-box div a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width:48rem) {
+    .navbar-name img {
+        height: 85.23px;
+        width: 150px;
+    }
+
+    .second-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .second-title {
+        margin: 0px 20px;
+        background-size: contain;
+        height: 48px;
+        background-repeat: no-repeat;
+        background-image: url(https://www.monsterhunter.com/rise/assets/images/common/sec-ttl_bg-sp.png);
+    }
+
+    .col-sm-12 {
+        margin-bottom: 10px;
+    }
+
+    footer .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-box {
+        margin-bottom: 30px;
+    }
+
+    .second-box {
+        font-size: 12px;
+    }
+}
